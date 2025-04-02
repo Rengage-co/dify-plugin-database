@@ -1,7 +1,7 @@
 ## database
 
 **Author:** Rengage-co  
-**Version:** 0.0.5  
+**Version:** 0.0.6  
 **Type:** extension   
 **Repo:** [https://github.com/Rengage-co/dify-plugin-database](https://github.com/Rengage-co/dify-plugin-database)  
 **Feature Request:** [issues](https://github.com/Rengage-co/dify-plugin-database/issues)

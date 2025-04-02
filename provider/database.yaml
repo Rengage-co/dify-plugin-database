@@ -1,8 +1,8 @@
 identity:
-  author: Rengage-co
-  name: rengage-database
+  author: rengage
+  name: database
   label:
-    en_US: rengage-database
+    en_US: database
   description:
     en_US: This tool is used to execute SQL in an existing database.
     zh_Hans: 此工具用于在已存在的数据库中执行 SQL 查询。

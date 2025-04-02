@@ -10,7 +10,7 @@ class SQLEndpoint(Endpoint):
     def _invoke(self, r: Request, values: Mapping, settings: Mapping) -> Response:
 
         result = self.session.tool.invoke_builtin_tool(
-            provider="Rengage-co/database/database",
+            provider="rengage/database/database",
             tool_name="sql_execute",
             parameters=r.json,
         )
