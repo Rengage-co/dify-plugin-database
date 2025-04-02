@@ -1,10 +1,10 @@
 ## database
 
-**Author:** hjlarry  
-**Version:** 0.0.4  
+**Author:** Rengage-co  
+**Version:** 0.0.3  
 **Type:** extension   
-**Repo:** [https://github.com/hjlarry/dify-plugin-database](https://github.com/hjlarry/dify-plugin-database)  
-**Feature Request:** [issues](https://github.com/hjlarry/dify-plugin-database/issues)
+**Repo:** [https://github.com/Rengage-co/dify-plugin-database](https://github.com/Rengage-co/dify-plugin-database)  
+**Feature Request:** [issues](https://github.com/Rengage-co/dify-plugin-database/issues)
 
 ### Be Carefull!
 **The sql_execute tool can run any SQL query; for enhanced security, always use a read-only database account.**
@@ -37,7 +37,7 @@ If you input the `DB URI` field, it will overwrite the default authorization uri
 #### 3. Use the `Text to SQL` tool can transform user input to a valid sql query.
 ![text](./_assets/text.png)
 
-This tool will use the default prompt [here](https://github.com/hjlarry/dify-plugin-database/blob/d6dd3695840e8eb5d673611784af148b1789da97/tools/text2sql.py#L9) to generate a sql query. If you specify the `TABLES` field, it will only get those tables' schema into the LLM context.
+This tool will use the default prompt [here](https://github.com/Rengage-co/dify-plugin-database/blob/d6dd3695840e8eb5d673611784af148b1789da97/tools/text2sql.py#L9) to generate a sql query. If you specify the `TABLES` field, it will only get those tables' schema into the LLM context.
 
 
 #### 4. Use the `endpoint` tool to get the data from a url request.
@@ -50,7 +50,7 @@ curl -X POST 'https://daemon-plugin.dify.dev/o3wvwZfYFLU5iGopr5CxYmGaM5mWV7xf/sq
 
 ### Changelog
 
-#### 0.0.4
+#### 0.0.3
 1. support `sqlserver`, `oracle` connection
 2. change `db_url` to a llm format, so that user can use a environment variable of workflow to set the database uri
 3. fix in a agent app, `sql_execute` tool only response the first result
@@ -62,7 +62,7 @@ curl -X POST 'https://daemon-plugin.dify.dev/o3wvwZfYFLU5iGopr5CxYmGaM5mWV7xf/sq
 3. add a `db_uri` to support link to multiple databases
 4. change the `output` of sql_execute tool to a form format
 5. change the `tables` of text2sql tool to a llm format
-6. fix sql query being converted to lowercase [issue](https://github.com/hjlarry/dify-plugin-database/issues/2)
+6. fix sql query being converted to lowercase [issue](https://github.com/Rengage-co/dify-plugin-database/issues/2)
 
 
 ### Contact

@@ -1,6 +1,6 @@
-version: 0.0.4
+version: 0.0.3
 type: plugin
-author: hjlarry
+author: Rengage-co
 name: database
 label:
   en_US: database
