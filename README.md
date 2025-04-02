@@ -1,7 +1,7 @@
 ## database
 
 **Author:** Rengage-co  
-**Version:** 0.0.3  
+**Version:** 0.0.5  
 **Type:** extension   
 **Repo:** [https://github.com/Rengage-co/dify-plugin-database](https://github.com/Rengage-co/dify-plugin-database)  
 **Feature Request:** [issues](https://github.com/Rengage-co/dify-plugin-database/issues)
@@ -50,13 +50,13 @@ curl -X POST 'https://daemon-plugin.dify.dev/o3wvwZfYFLU5iGopr5CxYmGaM5mWV7xf/sq
 
 ### Changelog
 
-#### 0.0.3
+#### 0.0.1
 1. support `sqlserver`, `oracle` connection
 2. change `db_url` to a llm format, so that user can use a environment variable of workflow to set the database uri
 3. fix in a agent app, `sql_execute` tool only response the first result
 4. migrate the table schema info of the `text2sql` tool to a user prompt, to prevent system prompt too long then response nothing
 
-#### 0.0.3
+#### 0.0.2
 1. add `cryptography` to requirements.txt to support mysql 8.1 sha256 link
 2. remove database uri setting of the endpoint
 3. add a `db_uri` to support link to multiple databases
