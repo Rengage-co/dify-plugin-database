@@ -1,12 +1,12 @@
 version: 0.0.3
 type: plugin
 author: Rengage-co
-name: database
+name: rengage-database
 label:
-  en_US: database
-  ja_JP: database
-  zh_Hans: database
-  pt_BR: database
+  en_US: rengage-database
+  ja_JP: rengage-database
+  zh_Hans: rengage-database
+  pt_BR: rengage-database
 description:
   en_US: This tool is used to execute SQL in an existing database.
   ja_JP: This tool is used to execute SQL in an existing database.
